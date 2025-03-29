@@ -1,0 +1,102 @@
+@font-face {
+    font-family: futuraYipee;
+    src: url(Futura\ Book.ttf);
+}
+
+body {
+    margin: 0%;
+    margin-top: 0%;
+    font-family: futuraYipee;
+    overflow: hidden;
+    background-image: url(gayBack.png);
+    background-size: cover;
+    font-size: 180%;
+}
+
+::placeholder {
+    color: #3D1A78;
+    font-family: futuraYipee;
+}
+
+.niceHead {
+    width: 110%;
+    rotate: 359deg;
+    padding: 1%;
+    margin-top: -4%;
+    margin-left: -2%;
+    margin-bottom: 3%;
+    padding-top: 4%;
+    padding-left: 8%;
+    background-color: #078D70;
+    color: white;
+}
+
+.donoDeets {
+    margin-left: 15%;
+    color: #3D1A78;
+    margin-bottom: 2%;
+}
+
+.sanKyu {
+    margin-bottom: 2%;
+    margin-top: 6%;
+    font-size: 150%;
+}
+
+button {
+    background-color: #3D1A78;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 4;
+    border: none;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+#badgeDiv {
+    margin-top: -1%;
+}
+
+#badgeImage {
+    margin-top: -5%;
+    width: 16%;
+}
+
+button:hover {
+    background-color: #078D70;
+}
+
+.splashArt {
+    margin-top: -36%;
+    margin-right: 9.5%;
+    width: 42.5%;
+    height: 42.5%;
+    float: right;
+    position: relative;
+    z-index: 2;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #3D1A78;
+    height: 9%;
+    width: 115%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    text-align: center;
+    rotate: 1deg;
+    margin-left: -10%;
+    margin-bottom: -10%;
+    position: absolute;
+    z-index: 3;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}

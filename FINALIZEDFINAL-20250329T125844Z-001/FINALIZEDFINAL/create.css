@@ -1,0 +1,113 @@
+@font-face {
+    font-family: futuraYipee;
+    src: url(Futura\ Book.ttf);
+}
+
+body {
+    margin: 0%;
+    margin-top: 0%;
+    font-family: futuraYipee;
+    overflow: hidden;
+    background-image: url(lesBack.png);
+    background-size: cover;
+}
+
+::placeholder {
+    color: #D52D00;
+    font-family: futuraYipee;
+}
+
+.niceHead {
+    width: 110%;
+    rotate: 359deg;
+    padding: 1%;
+    margin-top: -4%;
+    margin-left: -2%;
+    margin-bottom: 3%;
+    padding-top: 4%;
+    padding-left: 8%;
+    background-color: #D52D00;
+    color: white;
+    font-size: 120%;
+}
+
+.input1, .input2, .input3, .input4, .subBut, .setGoal {
+    margin-left: 65%;
+    font-size: 100%;
+    color: #D52D00;
+    margin-bottom: 2%;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #D52D00;
+    padding: 7px;
+    outline: none;
+    font-family: futuraYipee;
+    color: #D52D00;
+    font-size: 140%;
+}
+
+input:focus {
+    background-color: #FFC299;
+}
+
+#submitButton {
+    background-color: #A30262;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin-top: 3%;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 4;
+    border: none;
+    border-radius: 40px;
+    transition: 0.4s;
+    font-size: 200%;
+}
+
+#tinyPeso {
+    font-size: 150%;
+}
+
+#submitButton:hover {
+    background-color: #D52D00;
+}
+
+.splashArt {
+    margin-top: -32%;
+    margin-left: 12%;
+    width: 30%;
+    height: 30%;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #A30262;
+    height: 9%;
+    width: 115%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    text-align: center;
+    rotate: 1deg;
+    margin-left: -10%;
+    margin-bottom: -10%;
+    position: absolute;
+    z-index: 3;
+    font-size: 150%;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.input1 {
+    margin-top: 5.5%;
+}

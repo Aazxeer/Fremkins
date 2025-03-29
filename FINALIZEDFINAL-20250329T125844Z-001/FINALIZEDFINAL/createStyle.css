@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    background-position-y: 300%;
+    background-size: 100% 95%;
+    background-attachment: fixed;
+    font-family: futuraBook;
+    overflow: hidden;
+}
+
+.logoIcon {
+    position: relative;
+    background-color: black;
+    rotate: 358deg;
+    height: 10%;
+    width: 110%;
+    padding-top: 3%;
+    padding-bottom: 0%;
+    text-align: left;
+    padding-left: 12%;
+    margin-bottom: 3%;
+    margin-left: -10%;
+    margin-top: -4%;
+    z-index: 3;
+}
+
+@font-face {
+    font-family: futuraBook;
+    src: url(Futura\ Book.ttf);
+}
+
+#logoIdent {
+    width: 10%;
+    height: 10%;
+}
+
+.toopFotter {
+    z-index: -2;
+    margin-top: -5%;
+    margin-bottom: -14%;
+}
+
+#topFooter {
+    width: 100%;
+    height: 100%;
+}
+
+.accountDeets {
+    margin-top: 2%;
+}
+
+.accountDeets, .beenHere {
+    text-align: left;
+    margin-left: 70%;
+    font-size: 140%;
+}
+
+.beenHere {
+    margin-top: 15px;
+    font-size: large;
+}
+
+.submitButton {
+    text-align: left;
+    margin-left: 70%;
+    margin-top: 15px;
+    text-decoration: none;
+    width: 10%;
+    padding: 10px 10px;
+    background-color: #d888d8;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #800080;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 120%;
+}
+
+input:focus {
+    background-color: #d888d8;
+    color: black;
+    border: none;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #a3a3a3;
+    padding: 7px;
+    outline: none;
+    font-size: 120%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link{
+    color: #800080;
+}
+a:visited {
+    color: #800080;
+    font-weight: bold;
+}
+a:hover {
+    color: black;
+}
+
+input:focus::placeholder {
+    color: white;
+}
+
+::placeholder {
+    font-family: futuraBook;
+}
+
+.splashArt {
+    margin-top: -30%;
+    margin-left: 8%;
+    width: 45%;
+    height: 45%;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+
+::selection {
+    color: white;
+    background: #800080;
+  }
+
+#deadSpace {
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    background-color: #800080;
+    color: #800080;
+    padding-top: 5%;
+    position: relative;
+    top: 380px;
+    z-index: 10;
+    transition: 1.5s ease-in-out;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    color: #800080;
+    background-color: #800080;
+    height: 9%;
+    width: 115%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    text-align: center;
+    rotate: 1deg;
+    margin-left: -10%;
+    margin-bottom: -11%;
+    z-index: 2;
+}
+
+.buttOn {
+    background-color: white;
+    border: none;
+    color: #800080;
+    padding: 0.3% 0.7%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 140%;
+    font-family: futuraBook;
+    cursor: pointer;
+  }
